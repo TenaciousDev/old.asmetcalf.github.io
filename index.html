@@ -1,12 +1,199 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>A. S. Metcalf: Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nobile:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./main.css">
+
+  <title>A.S. Metcalf: Portfolio</title>
 </head>
+
 <body>
-    
+  <!-- <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">A. S. Metcalf</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+    </div>
+  </nav> -->
+  <div class="jumbotron jumbotron-fluid bg-cover hero-top-background full-height">
+    <div class="container-fluid hero-top align-items-end m-auto p-4">
+      <div class="row row-spacer-tall d-sm-none"></div>
+      <div class="row row-spacer-tall d-sm-none"></div>
+      <div class="row row-spacer-tall d-sm-none"></div>
+      <div class="row row-spacer-tall d-md-none"></div>
+      <div class="row row-spacer-short d-md-none"></div>
+      <div class="row row-spacer-tall d-lg-none"></div>
+      <!-- <div class="row row-spacer-tall"></div> -->
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col">
+          <h1 class="display-2 text-white text-responsive hero-title-top impact-700">Adam</h1>
+        </div>
+        <div class="col">
+          <h1 class="display-2 text-white text-responsive impact-700">&nbsp;S.</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-1 d-none d-md-block"></div>
+        <div class="col">
+          <h1 class="display-2 text-white text-responsive hero-title-bottom impact-800"><span class="chevron-styles">&gt;&gt;&nbsp;</span>Metcalf</h1>
+        </div>
+      </div>
+      <div class="row-spacer-short"></div>
+      <div class="row justify-content-around">
+        <div class="col-spacer-short"></div>
+        <div class="col-auto text-center">
+          <a href="#my-story" class="hero-hover-effect">
+            <i class="fas fa-meh-blank fa-custom"></i>
+            <br>
+            <p class="impact-300 mt-2 text-center">my story</p>
+          </a>
+        </div>
+        <div class="col-spacer-narrow d-none d-sm-block"></div>
+        <div class="col-auto text-center">
+          <a href="#my-focus" class="hero-hover-effect">
+            <i class="fas fa-laptop-code fa-custom"></i>
+            <br>
+            <p class="impact-300 mt-2 text-center">my focus</p>
+          </a>
+        </div>
+        <div class="col-spacer-narrow d-none d-sm-block"></div>
+        <div class="col-auto text-center">
+          <a href="#" class="hero-hover-effect">
+            <i class="fab fa-github fa-custom"></i>
+            <br>
+            <p class="impact-300 mt-2 text-center">my work</p>
+          </a>
+        </div>
+        <div class="col-spacer-short"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid full-height">
+    <div class="row-spacer-short"></div>
+    <div class="row" id="my-story">
+      <div class="col">
+        <p class="display-4 text-center">My Story</p>
+      </div>
+    </div>
+    <div class="row px-3">
+      <div class="col-md mx-auto mb-4 headshot align-self-center">
+        <img src="assets/meWithHat.JPG" alt="placeholder" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md mx-2">
+        <div class="row">
+          <p class="h2">Always Learning</p>
+          <p class="text-justify"><span class="lead">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Natus amet, error dolores nisi possimus in nihil
+            quia adipisci aspernatur recusandae esse a reprehenderit consequuntur praesentium architecto quae? Fugiat,
+            enim quod.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi at ad voluptatum fugit inventore iure
+            maxime perferendis maiores illo dolores nostrum eaque fuga, porro necessitatibus quos cum provident corrupti?
+          </p>
+        </div>
+        <div class="row">
+          <p class="h2">Development & Design</p>
+          <p class="text-justify"><span class="lead">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Natus amet, error dolores nisi possimus in nihil
+            quia adipisci aspernatur recusandae esse a reprehenderit consequuntur praesentium architecto quae? Fugiat,
+            enim quod.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi at ad voluptatum fugit inventore iure
+            maxime perferendis maiores illo dolores nostrum eaque fuga, porro necessitatibus quos cum provident corrupti?
+          </p>
+        </div>
+        <div class="row">
+          <p class="h2">Service-Disabled Veteran</p>
+          <p class="text-justify"><span class="lead">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Natus amet, error dolores nisi possimus in nihil
+            quia adipisci aspernatur recusandae esse a reprehenderit consequuntur praesentium architecto quae? Fugiat,
+            enim quod.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi at ad voluptatum fugit inventore iure
+            maxime perferendis maiores illo dolores nostrum eaque fuga, porro necessitatibus quos cum provident corrupti?
+        </div>
+      </div>
+    </div>
+    <div class="row-spacer-tall"></div>
+    <div class="row justify-content-center" id="my-focus">
+      <div class="col-md-4">
+        <p class="display-4 text-center">My Focus</p>
+      </div>
+    </div>
+    <div class="row-spacer-short"></div>
+    <div class="row justify-content-start">
+      <div class="col-md-8">
+        <p class="h2 text-center">Front-End Web</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ipsam amet officia molestias dolor numquam tempora aliquid, vero iusto non, ipsa quisquam cupiditate dolores temporibus quaerat quae! Tenetur, in expedita?Dolor amet rem praesentium dolore nam pariatur facilis nulla sit asperiores? Magnam adipisci debitis, perferendis dicta iusto aliquam quae fuga aspernatur, accusantium eveniet delectus nam libero impedit, tempora ipsum nostrum.
+        </p>
+      </div>
+    </div>
+    <div class="row-spacer-short"></div>
+    <div class="row justify-content-end">
+      <div class="col-md-8">
+        <p class="h2 text-center">.NET Development</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ipsam amet officia molestias dolor numquam tempora aliquid, vero iusto non, ipsa quisquam cupiditate dolores temporibus quaerat quae! Tenetur, in expedita?Dolor amet rem praesentium dolore nam pariatur facilis nulla sit asperiores? Magnam adipisci debitis, perferendis dicta iusto aliquam quae fuga aspernatur, accusantium eveniet delectus nam libero impedit, tempora ipsum nostrum.
+        </p>
+      </div>
+    </div>
+    <div class="row-spacer-short"></div>
+    <div class="row justify-content-start">
+      <div class="col-md-8">
+        <p class="h2 text-center">Cybersecurity</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ipsam amet officia molestias dolor numquam tempora aliquid, vero iusto non, ipsa quisquam cupiditate dolores temporibus quaerat quae! Tenetur, in expedita?Dolor amet rem praesentium dolore nam pariatur facilis nulla sit asperiores? Magnam adipisci debitis, perferendis dicta iusto aliquam quae fuga aspernatur, accusantium eveniet delectus nam libero impedit, tempora ipsum nostrum.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
 </body>
+
 </html>
