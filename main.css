@@ -4,14 +4,15 @@
 
 .hero-top-background {
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.25),rgba(255,255,255,0.25)),
+        linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
         url(./assets/heroImageKeyboard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .hero-top {
-    margin: 0rem;;
+    margin: 0rem;
+    ;
     opacity: 100%;
 }
 
@@ -34,6 +35,7 @@
 .chevron-styles {
     color: #0588BC;
 }
+
 
 .row-spacer-tall {
     height: 8vw;
@@ -76,6 +78,11 @@
 .headshot {
     max-width: 30rem;
     height: auto;
+}
+
+.focus-chevron {
+    color: #0588BC;
+
 }
 
 .icon-hover-effect {
