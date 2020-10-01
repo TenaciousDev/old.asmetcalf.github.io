@@ -24,7 +24,7 @@
   <!-- Devicon Fonts -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
   
-  <!-- My CSS -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./main.css">
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -37,7 +37,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
-  <!-- Optional JavaScript -->
+  <!-- JavaScript for Bootstrap Tooltips-->
   <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
@@ -48,6 +48,7 @@
 </head>
 
 <body>
+  <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-custom nav-bg-custom">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,29 +59,27 @@
         <li class="nav-item">
           <a class="nav-link px-4" href="#">home</a>
         </li>
-        <!-- EXTRA LINKS TO PORTFOLIO AND EDUCATION GO HERE ONCE I HAVE MORE TO SHOW -->
         <li class="nav-item">
           <a class="nav-link px-4" href="#portfolio">portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link px-4" href="#about">about</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-md-block">
           <a class="nav-link px-4" href="https://www.linkedin.com/in/asmetcalf/" target="_blank"  data-toggle="tooltip" data-placement="right" title="Send me a message on LinkedIn to learn more!">contact</a>
         </li>
     </div>
   </nav>
+  <!-- Header area containing Hero Image, Name & Tagline, Social Links -->
   <div class="jumbotron jumbotron-fluid bg-cover hero-top-background full-height mb-0">
     <div class="container-fluid hero-top align-items-end m-auto p-4">
       <div class="row row-spacer-tall d-sm-none"></div>
       <div class="row row-spacer-tall d-sm-none"></div>
-      <div class="row row-spacer-tall d-sm-none"></div>
-      <div class="row row-spacer-tall d-md-none"></div>
       <div class="row row-spacer-short d-md-none"></div>
-      <div class="row row-spacer-tall d-none d-md-block d-lg-none"></div>
-      <div class="row row-spacer-tall d-none d-md-block d-lg-none"></div>
+      <div class="row row-spacer-md d-lg-none"></div>
       <div class="row row-spacer-tall d-none d-lg-block d-xl-none"></div>
-      <div class="row row-spacer-tall d-none d-md-block"></div>
+      <div class="row row-spacer-tall d-none d-lg-block"></div>
+      <div class="row row-spacer-short d-none d-md-block"></div>
       <div class="row">
         <div class="col-spacer-narrow"></div>
         <div class="col">
@@ -111,16 +110,11 @@
             <i class="fab fa-github fa-custom"></i>
           </a>
         </div>
-        <div class="col-auto text-center">
-          <a href="#">
-
-          </a>
-        </div>
-
         <div class="col-spacer-narrow"></div>
       </div>
     </div>
   </div>
+  <!-- About Section -->
   <div class="container-fluid">
     <div id="about"></div>
     <div class="row-spacer-short"></div>
@@ -132,7 +126,7 @@
     </div>
     <div class="row px-3 overflow-auto">
       <div class="col-xs-4 col-md-5 col-lg-4 mx-auto mb-4 pt-4 headshot align-self-top">
-        <img src="assets/meWithHat.JPG" alt="placeholder" class="img-fluid rounded-circle">
+        <img src="assets/professional-photo-01.JPG" alt="placeholder" class="img-fluid rounded-circle">
       </div>
       <div class="col-xl-6 mx-2">
         <p class="h2 offset-left">Software & Web.</p>
@@ -172,7 +166,11 @@
     <div class="row-spacer-md"></div>
     <div class="row-spacer-md"></div>
     <hr class="hr-style">
-    <!-- THIS WILL BE THE PORTFOLIO SECTION ONCE I HAVE WORK TO PUT HERE -->
+    <!-- Portfolio Section -->
+      <!-- Custom fonts denoted by <i> tag may be greyed out below,
+            as well as Bootstrap button elements. This is intentional,
+            as a reminder to update these tags as I update the projects
+            themselves, or add new ones. -->
     <div class="row pb-4">
       <div class="col">
         <p class="display-3 text-center mb-4">Project Portfolio</p>
@@ -182,7 +180,7 @@
       <div class="col-12 pb-4">
         <p class="lead text-center"><b>Below you'll find a modest collection of my projects. I'm always working on something new, so please check back frequently!</b></p>
       </div>
-      <div class="col-md-4 px-4">
+      <div class="col-md-6 col-lg-4 col-xl-3 px-4">
         <div class="card mb-4">
           <div class="card-header text-right">
             <i class="fab fa-html5 fig fig-html" data-toggle="tooltip" data-placement="top" title="This project was build using HTML5!"></i>
@@ -205,7 +203,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6 col-lg-4 col-xl-3">
         <div class="card mb-4">
           <div class="card-header text-right">
             <i class="fab fa-html5 fig fig-html" data-toggle="tooltip" data-placement="top" title="This project was build using HTML5!"></i>
@@ -228,7 +226,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6 col-lg-4 col-xl-3">
         <div class="card mb-4">
           <div class="card-header text-right">
             <!-- <i class="fab fa-html5 fig fig-html" data-toggle="tooltip" data-placement="top" title="This project was build using HTML5!"></i> -->
@@ -252,7 +250,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6 col-lg-4 col-xl-3">
         <div class="card mb-4">
           <div class="card-header text-right">
             <i class="fab fa-html5 fig fig-html" data-toggle="tooltip" data-placement="top" title="This project was build using HTML5!"></i>
@@ -276,7 +274,7 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col-md-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div class="card mb-4">
           <div class="card-header text-right">
             <i class="fab fa-html5 fig fig-html" data-toggle="tooltip" data-placement="top" title="This project was build using HTML5!"></i>
@@ -297,7 +295,7 @@
           </div>
         </div>
       </div> -->
-      <!-- <div class="col-md-4">
+      <!-- <div class="col-md-6 col-lg-4">
         <div class="card mb-4">
           <div class="card-header text-right">
             <i class="fab fa-html5 fig fig-html" data-toggle="tooltip" data-placement="top" title="This project was build using HTML5!"></i>
@@ -319,26 +317,22 @@
         </div>
       </div> -->
     </div>
-
-
   </div>
   <div class="row-spacer-tall"></div>
-
+<!-- Footer Section -->
   <footer class="footer">
     <div class="container">
       <div class="row justify-content-between">
         <div>
-          <span>website designed by Adam S. Metcalf</span>
+          <span class="foot-content">website designed by Adam S. Metcalf</span>
         </div>
         <div>
-          <span>photo credit: 
+          <span class="foot-content">photo credit: 
             <a href="https://unsplash.com/@crypticsy" target="_blank" class="footer-hover-effect">Mesh</a></span>
         </div>
       </div>
     </div>
   </footer>
-
-
 </body>
 
 </html>
