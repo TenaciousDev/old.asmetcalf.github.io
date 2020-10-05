@@ -65,7 +65,7 @@
         <li class="nav-item">
           <a class="nav-link px-4" href="#about">about</a>
         </li>
-        <li class="nav-item d-none d-md-block">
+        <li class="nav-item">
           <a class="nav-link px-4" href="#contact">contact</a>
         </li>
     </div>
@@ -174,7 +174,8 @@
           implementing design changes for an industry-leading web-based job board, I'm constantly looking for ways to
           upgrade my knowledge and gain new experience.
         </p>
-        <p class="btn btn-dark"><a href="assets/professionalResume_generic_redacted.pdf" target="_blank" class="text-white">Download Resume</a></p>
+        <p class="btn btn-dark"><a href="assets/professionalResume_generic_redacted.pdf" target="_blank"
+            class="text-white">Download Resume</a></p>
       </div>
       <div class="col-spacer-md"></div>
     </div>
@@ -364,39 +365,43 @@
       <p class="lead text-center">Please enter your information and write a brief message using the form below:</p>
     </div>
   </div>
-  <form action="https://formspree.io/f/mrgoebeg" method="POST" id="contact-form">
-    <div class="row justify-content-left m-3">
-      <div class="col-lg-3 col-md-2 col-sm-0"></div>
-      <div class="col-lg-3 col-md-6 col-sm-10">
-        <input type="text" class="form-control" placeholder="First name" name="firstname" required>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-10">
-        <input type="text" class="form-control" placeholder="Last name" name="lastname" required>
-      </div>
+  <div class="row justify-content-center">
+    <div class="col-sm col-md-10 col-lg-8 col-xl-6">
+      <form action="https://formspree.io/f/mrgoebeg" method="POST" id="contact-form">
+        <div class="form-row justify-content-center m-3">
+          <!-- <div class="col-lg-3 col-md-2 col-sm-0"></div> -->
+          <div class="col">
+            <input type="text" class="form-control mt-3" placeholder="First name" name="firstname" required>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control mt-3" placeholder="Last name" name="lastname" required>
+          </div>
+        </div>
+        <div class="form-row justify-content-center m-3">
+          <!-- <div class="col-lg-3 col-md-2 col-sm-0"></div> -->
+          <div class="col-12">
+            <input type="email" class="form-control" placeholder="Email" name="_replyto" required>
+          </div>
+        </div>
+        <div class="form-row justify-content-left m-3">
+          <!-- <div class="col-lg-3 col-md-2 col-sm-0"></div> -->
+          <div class="col-12">
+            <textarea type="text" class="form-control" placeholder="Please enter a message..." rows="6" name="message"
+              required></textarea>
+          </div>
+        </div>
+        <div>
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="https://asmetcalf.github.io/asmetcalf/thanks" />
+          <div class="row justify-content-center m-3">
+            <button class="btn-dark" type="submit" value="Send">Submit</button>
+          </div>
+        </div>
+        <div class="row-spacer-tall"></div>
+      </form>
     </div>
-    <div class="row justify-content-left m-3">
-      <div class="col-lg-3 col-md-2 col-sm-0"></div>
-      <div class="col-lg-4 col-sm-10">
-        <input type="email" class="form-control" placeholder="Email" name="_replyto" required>
-      </div>
-    </div>
-    <div class="row justify-content-left m-3">
-      <div class="col-lg-3 col-md-2 col-sm-0"></div>
-      <div class="col-lg-6 col-sm-10">
-        <textarea type="text" class="form-control" placeholder="Please enter a message..." rows="6" name="message"
-          required></textarea>
-      </div>
-    </div>
-    <div>
-      <input type="hidden" name="_subject" value="New submission!" />
-      <input type="text" name="_gotcha" style="display:none" />
-      <input type="hidden" name="_next" value="https://asmetcalf.github.io/asmetcalf/thanks" />
-      <div class="row justify-content-center m-3">
-        <button class="btn-dark" type="submit" value="Send">Submit</button>
-      </div>
-    </div>
-    <div class="row-spacer-tall"></div>
-  </form>
+  </div>
 
   <!-- Footer Section -->
   <footer class="footer">
