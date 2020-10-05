@@ -238,6 +238,10 @@ html::-webkit-scrollbar {
     color: rgb(152, 82, 173);
 }
 
+.download {
+    font-size: 1.2rem;
+}
+
 @media screen 
 and (max-width: 280.5px) {
     * {
