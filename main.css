@@ -163,7 +163,12 @@ html::-webkit-scrollbar {
     height: 98%;
 }
 
-.card-image-top {
+.card-img-top {
+    width: 100%;
+    margin: 0%;
+}
+
+.card-img-left {
     width: 100%;
     margin: 0%;
 }
